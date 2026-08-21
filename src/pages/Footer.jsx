@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTerminal, faCoffee } from "@fortawesome/free-solid-svg-icons";
-import { faGithub, faInstagram, faSquareLinkedin, faWhatsapp, faFacebook, faTiktok } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram, faWhatsapp, faFacebook, faTiktok } from '@fortawesome/free-brands-svg-icons';
 
 export default function Footer() {
     const currentYear = new Date().getFullYear();
@@ -35,22 +35,16 @@ export default function Footer() {
                     <div className="space-y-4">
                         <h4 className="text-white font-semibold uppercase tracking-wider text-sm">Connect</h4>
                         <div className="flex gap-6">
-                            <a href="#" className="p-2 md:text-xl bg-gray-800 rounded-full hover:bg-blue-600 transition-colors">
-                                <FontAwesomeIcon icon={faGithub} />
-                            </a>
-                            <a href="#" className="p-2 md:text-xl bg-gray-800 rounded-full hover:bg-pink-600 transition-colors">
-                                <FontAwesomeIcon icon={faInstagram} />
-                            </a>
-                            <a href="#" className="p-2 md:text-xl bg-gray-800 rounded-full hover:bg-blue-700 transition-colors">
-                                <FontAwesomeIcon icon={faSquareLinkedin} />
-                            </a>
-                            <a href="#" className="p-2 md:text-xl bg-gray-800  rounded-full hover:bg-green-500 transition-colors">
+                            <a href="/" className="p-2 md:text-xl bg-gray-800  rounded-full hover:bg-green-400 transition-colors">
                                 <FontAwesomeIcon icon={faWhatsapp} />
                             </a>
-                            <a href="#" className="p-2 md:text-xl bg-gray-800 rounded-full hover:bg-blue-700 transition-colors">
+                            <a href="https://www.instagram.com/informatix.x?igsi=MXUzdWhmYXRndGtwbw==" target="_blank" className="p-2 md:text-xl bg-gray-800 rounded-full hover:bg-pink-500 transition-colors">
+                                <FontAwesomeIcon icon={faInstagram} />
+                            </a>
+                            <a href="/" className="p-2 md:text-xl bg-gray-800 rounded-full hover:bg-blue-400 transition-colors">
                                 <FontAwesomeIcon icon={faFacebook} />
                             </a>
-                            <a href="#" className="p-2 md:text-xl bg-gray-800 rounded-full hover:bg-slate-900 transition-colors">
+                            <a href="/" className="p-2 md:text-xl bg-gray-800 rounded-full hover:bg-slate-900 transition-colors">
                                 <FontAwesomeIcon icon={faTiktok} />
                             </a>
                         </div>

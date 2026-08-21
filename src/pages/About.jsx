@@ -1,23 +1,23 @@
 import { motion } from "framer-motion";
-import AboutCarousel from "@/components/carousel/AboutCarousel";
+import AboutCard from "@/components/AboutCard";
 
 
 export default function AboutSection() {
     return (
         <section
             id="tentang"
-            className="relative  md:scroll-pt-16 bg-slate-50 pt-20 md:pt-24"
+            className="relative md:scroll-pt-16 bg-slate-50 pt-20 md:pt-24"
         >
-            <div className="container mx-auto px-5">
+            <div className="w-full px-5">
                 {/* Heading */}
                 <motion.div
                     initial={{ opacity: 0, y: 30 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6 }}
                     viewport={{ once: true }}
-                    className="mb-2 text-center"
+                    className="text-center"
                 >
-                    <h2 className="text-xl md:text-4xl font-extrabold text-slate-800">
+                    <h2 className="mb-8 text-xl md:text-4xl font-extrabold text-slate-800">
                         Tentang <span className="text-cyan-400">TI A</span>
                     </h2>
                     {/* Content */}
@@ -33,7 +33,7 @@ export default function AboutSection() {
                 </motion.div>
             </div>
             {/* Carousel */}
-            <AboutCarousel />
+            <AboutCard />
         </section>
     );
 }

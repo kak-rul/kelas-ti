@@ -54,7 +54,7 @@ export default function NavBar() {
         <nav className={`sticky top-0 z-50 w-full  bg-background ${scrolled ? "bg-transparent backdrop-blur-sm transition-all duration-300 shadow-md" : ""}`}>
             <div className="container mx-auto flex h-16 items-center justify-between px-4">
                 {/* Logo */}
-                <h1 className="text-lg font-bold">TI A 2025</h1>
+                <h1 className="text-lg font-bold"><span className="text-cyan-400">TI A</span> 2025</h1>
 
                 {/* Desktop Menu */}
                 <ul className="hidden md:flex items-center gap-6">

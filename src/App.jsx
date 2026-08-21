@@ -1,10 +1,10 @@
 import ScrollProgress from './components/layout/ScrollProgres'
-import NavBar from './components/pages/NavBar'
-import Home from './components/pages/Home'
-import About from './components/pages/About';
-import Gallery from './components/pages/Gallery';
-import Kontak from './components/pages/Kontak';
-import Footer from './components/pages/Footer';
+import NavBar from './pages/NavBar'
+import Home from './pages/Home'
+import About from './pages/About';
+import Gallery from './pages/Gallery';
+import Kontak from './pages/Kontak';
+import Footer from './pages/Footer';
 
 function App() {
   return (
